@@ -1,0 +1,16 @@
+= Change Files
+====
+Test case 
+====
+
+Create a File 
+[step]
+--
+createFile("some/Folder/For/test.txt", "files/test.txt")
+--
+
+Change the File
+[step]
+--
+changeFile("some/Folder/For/test.txt", {"content": "Insert this into the other Text", "lineNumber": "3"})
+--
