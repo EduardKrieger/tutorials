@@ -30,10 +30,3 @@ To use the cobigen cli you first have to install the devonfw ide. You will find 
 --
 executeCommand("bash setup.sh", {"dir": "setup", "asynchronous": "true", "args": ["-h", "-v"]})
 --
-
-
-To use the cobigen cli you first have to install the devonfw ide. You will find more information about devonfw on https://devonfw.com/website/pages/welcome/welcome.html.
-[step]
---
-executeCommand("./localBuildTest.ps1")
---
