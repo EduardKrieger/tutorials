@@ -12,5 +12,18 @@ createFile("some/Folder/For/test.txt", "files/test.txt")
 Change the File
 [step]
 --
+changeFile("some/Folder/For/test.txt", {"content": "AAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAA"})
+--
+
+
+Change the File
+[step]
+--
 changeFile("some/Folder/For/test.txt", {"content": "Insert this into the other Text", "lineNumber": "3"})
+--
+
+Change the File
+[step]
+--
+changeFile("some/Folder/For/test.txt", {"content": "Text to insert nr.2", "lineNumber": "1"})
 --
