@@ -3,6 +3,12 @@
 Test case 
 ====
 
+Install Devon and VS
+[step]
+--
+installDevonfwIde(["java","mvn", "vscode"])
+--
+
 Create a File 
 [step]
 --
@@ -12,7 +18,7 @@ createFile("some/Folder/For/test.txt", "files/test.txt")
 Change the File
 [step]
 --
-changeFile("some/Folder/For/test.txt", {"content": "AAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAA\nAAAAAAAAAAAAAAAAAAA"})
+changeFile("some/Folder/For/test.txt", {"content": "BBBBBBBBBB\nBBBBBBBBBBBB\nBBBBBBAAAAAABBB\nBBBBBBBBB"})
 --
 
 
@@ -22,8 +28,34 @@ Change the File
 changeFile("some/Folder/For/test.txt", {"content": "Insert this into the other Text", "lineNumber": "3"})
 --
 
+
 Change the File
 [step]
 --
 changeFile("some/Folder/For/test.txt", {"content": "Text to insert nr.2", "lineNumber": "1"})
+--
+
+
+Change the File
+[step]
+--
+changeFile("some/Folder/For/test.txt", {"content": "Text to insert nr.2", "lineNumber": "1"})
+--
+
+Change the File
+[step]
+--
+changeFile("some/Folder/For/test.txt", {"content": "Text to insert nr33", "placeholder": "AAA"})
+--
+
+Change the File
+[step]
+--
+changeFile("some/Folder/For/test.txt", {"content": "Text to insert nr73647346"})
+--
+
+Change the File
+[step]
+--
+changeFile("some/Folder/For/test.txt", {"content": "VSCode Test", "lineNumber": "1"})
 --
