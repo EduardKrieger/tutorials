@@ -8,7 +8,7 @@ More information about Jump The Queue on https://github.com/devonfw/jump-the-que
 
 [step]
 --
-restoreDevonfwIde(["java", "mvn", "npm"])
+restoreDevonfwIde(["java", "mvn", "npm", "node"])
 --
 
 [step]
