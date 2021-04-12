@@ -8,17 +8,7 @@ More information about Jump The Queue on https://github.com/devonfw/jump-the-que
 
 [step]
 --
-restoreDevonfwIde(["java", "mvn", "npm", "node"])
---
-
-[step]
---
-executeCommand("npm install -g http-server")
---
-
-[step]
---
-executeCommand("http-server -p 9090",{"asynchronous": true, "dir": "/../../software/node/node_modules/http-server/"}, {"port": 9090})
+executeCommand("py -3 -m http.server 8000", {"asynchronous": true}, {"port": 8000, "startupTime": 35})
 --
 
 
