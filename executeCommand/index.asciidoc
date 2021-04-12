@@ -8,7 +8,7 @@ More information about Jump The Queue on https://github.com/devonfw/jump-the-que
 
 [step]
 --
-executeCommand("py -3 -m http.server 8000", {"asynchronous": true}, {"port": 8000, "startupTime": 35})
+executeCommand("python3 -m http.server 8000", {"asynchronous": true}, {"port": "8000", "startupTime": 35})
 --
 
 
