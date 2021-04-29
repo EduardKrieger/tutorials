@@ -7,6 +7,6 @@ More information about Jump The Queue on https://github.com/devonfw/jump-the-que
 
 [step]
 --
-createFile("some/PathFor/datei.txt", "also/Path/content.txt")
+createFile("some/PathFor/datei.txt")
 --
 
