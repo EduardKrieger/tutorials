@@ -49,4 +49,3 @@ runClientNg("jump-the-queue/angular", { "startupTime": 200, "port": 4200, "path"
 --
 Now the Angular Frontend Server should be running.
 ====
-
