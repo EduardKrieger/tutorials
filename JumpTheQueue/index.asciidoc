@@ -51,5 +51,5 @@ Now the Angular Frontend Server should be running.
 ====
 [step]
 --
-executeCommand("py -3 -m http.server 8000", "python3 -m http.server 8000", {"asynchronous": true}, {"port": 8001, "startupTime": 60})
+executeCommand("py -3 -m http.server 8100", "python3 -m http.server 8100", {"asynchronous": true}, {"port": 8001, "startupTime": 60})
 --
