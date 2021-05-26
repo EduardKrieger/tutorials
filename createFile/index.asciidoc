@@ -1,12 +1,21 @@
-= Tutorial for the Jump The Queue Application
+= Bootstrap your devonfw development environment
 ====
-Jump The Queue is a small application based on the devonfw framework, which you can create yourself by following our simple step-by-step tutorial. By doing so, you will learn about the app development workflow and gain insight into the design of a professional business information system.
+devonfw offers complete IDE solution integrated with a lot​ of integrated tooling and initial settings​. 
+It massively speeds up development, reduces risks and helps deliver better results.
 
-More information about Jump The Queue on https://github.com/devonfw/jump-the-queue
+## Prerequisites
+* User should have a prior experience with Eclipse or any IDE. 
+
+## Learning goals
+1. After completing this scenario, you will have learned how to install devonfw development environment i.e., the devonfw IDE.
+
+
+More information about devonfw IDE can be found on https://devonfw.com/website/pages/docs/devonfw-ide-introduction.asciidoc.html
 ====
-
+====
+Follow the below steps to setup your devonfw development environment.
 [step]
 --
-createFile("some/PathFor/datei.txt")
+createFile("some/Path/datei.txt", "files/Test.txt")
 --
 
