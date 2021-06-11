@@ -26,7 +26,7 @@ Once you have setup devonfw ide, you are ready to create your first devon4ng pro
 [step]
 --
 createDevon4ngProject("devon4ng-mat-layout", "", ["--style=scss", "--routing=true", "--strict=false"])
-
+runClientNg("devon4ng-mat-layout", { "startupTime": 200, "port": 4200, "path": "" })
 --
 
 Next we will add Angular Material to our application.
