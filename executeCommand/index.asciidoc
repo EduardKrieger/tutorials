@@ -14,8 +14,9 @@ executeCommand("py -3 -m http.server 8003", "python3 -m http.server 8003",  {"as
 
 [step]
 --
-executeCommand("py -3 -m http.server 8004", "python3 -m http.server 8004",  {"asynchronous": true}, {"port": 8004, "startupTime": 15})
-executeCommand("py -3 -m http.server 8005", "python3 -m http.server 8005",  {"asynchronous": true}, {"port": 8005, "startupTime": 15})
+executeCommand("somePollingScript.ps1","bash somePollingScript.sh", {"dir": "data/setup","asynchronous": true, "args": ["--params 5"]})
+executeCommand("someServerScript.ps1","bash someServerScript.sh", {"asynchronous": true, "args":["-port 8080"] },{"port":8080 , "startupTime": 20, "path": "some/path/", "interval": 2})
+executeCommand("node", "node" ,{"args": ["-v"]})
 --
 
 
