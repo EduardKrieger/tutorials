@@ -9,7 +9,7 @@ More information about Jump The Queue on https://github.com/devonfw/jump-the-que
 --
 executeCommand("py -3 -m http.server 8001", "python3 -m http.server 8001",  {"asynchronous": true, "dir":"some/Dire"}, {"port": 8001, "startupTime": 15})
 executeCommand("py -3 -m http.server 8002", "python3 -m http.server 8002",  {"asynchronous": true, "dir":"some/Dire" }, {"port": 8002, "startupTime": 15})
-executeCommand("py -3 -m http.server 8003", "python3 -m http.server 8003",  {"asynchronous": true, "dir":"some/Dire"}, {"port": 8003, "startupTime": 15})
+executeCommand("py -3 -m http.server 8003", "python3 -m http.server 8003",  {"asynchronous": true, "dir":"some/Dire"}, {"port": 8003, "startupTime": 15, "path": "irgendwas/hdhdh"})
 --
 
 [step]
